@@ -1,91 +1,58 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:217346,100:0E7C5A&height=170&section=header&text=HR%20System&fontSize=48&fontColor=ffffff&fontAlignY=45" width="100%"/>
 
-<div dir="rtl">
+# HR System — Excel
 
-# نظام HR المتكامل — Excel
+A complete operational HR system in a single Excel file, for SMEs that don't need a cloud system. The bundled data is fully synthetic: 30 demo employees in a fictional company. The UI is Arabic (built Arabic-first).
 
-نظام موارد بشرية تشغيلي كامل في ملف Excel واحد، للمنشآت الصغيرة والمتوسطة التي لا تحتاج نظاماً سحابياً. البيانات المرفقة تجريبية بالكامل: ثلاثون موظفاً افتراضياً في شركة خيالية.
+Browse the sheets below, or [⬇️ download to open in Excel](https://github.com/ab1ob/hr-excel-system/archive/refs/heads/master.zip).
 
-تصفّح الأوراق أدناه، أو [⬇️ حمّل النظام لتفتحه في Excel](https://github.com/ab1ob/hr-excel-system/archive/refs/heads/master.zip).
+## Control panel
 
----
+A company-wide view: total payroll, attendance rate, average performance, and the distribution of employees and salaries across departments — with navigation buttons to each module.
 
-## لوحة التحكم
+![Control panel](assets/01-dashboard.png)
 
-نظرة شاملة على المنشأة: إجمالي الرواتب، معدل الحضور، متوسط الأداء، وتوزيع الموظفين والرواتب على الأقسام — مع أزرار تنقل لكل وحدة.
+## Sheets
 
-![لوحة التحكم](assets/01-dashboard.png)
-
-## بيانات الموظفين
-
-السجل الكامل لكل موظف: العقود، الهويات، الإقامات، الرواتب الأساسية والبدلات.
-
-![بيانات الموظفين](assets/03-employees.png)
-
-## الرواتب
-
-مسير شهري بحسابات تلقائية مرتبطة بالإعدادات — الأساسي والبدلات والاستقطاعات والصافي.
-
-![الرواتب](assets/05-payroll.png)
-
-## الحضور
-
-متابعة شهرية للحضور والغياب والتأخير لكل موظف.
-
-![الحضور](assets/04-attendance.png)
-
-## مؤشرات الأداء (KPI)
-
-مؤشرات أداء لكل موظف.
-
-![مؤشرات الأداء](assets/08-kpi.png)
-
-## التوظيف
-
-مسار التوظيف ومتابعة المرشحين.
-
-![التوظيف](assets/09-recruitment.png)
+| Sheet | Purpose |
+|-------|---------|
+| Employees | Full record: contracts, IDs, Iqamas, base salaries |
+| Payroll | Monthly run with automatic, settings-linked calculations |
+| Attendance | Monthly presence, absence, and lateness per employee |
+| KPI | Per-employee performance indicators |
+| Recruitment | Hiring path and candidate tracking |
 
 <details>
-<summary>أوراق إضافية (اضغط للعرض)</summary>
+<summary><b>View module sheets</b></summary>
 
-### الإجازات
-![الإجازات](assets/06-leaves.png)
-
-### الخصومات والمكافآت
-![الخصومات والمكافآت](assets/07-deductions.png)
-
-### التقارير
-![التقارير](assets/10-reports.png)
-
-### الإعدادات
-![الإعدادات](assets/02-settings.png)
+![Employees](assets/03-employees.png)
+![Payroll](assets/05-payroll.png)
+![Attendance](assets/04-attendance.png)
+![KPI](assets/08-kpi.png)
+![Recruitment](assets/09-recruitment.png)
+![Leaves](assets/06-leaves.png)
+![Deductions](assets/07-deductions.png)
+![Reports](assets/10-reports.png)
 
 </details>
 
----
+## Saudi-compliant calculations
 
-## التوافق مع الأنظمة السعودية
+- GOSI (social insurance) for Saudi and non-Saudi
+- End-of-service benefit (EOSB) per labor law
+- Iqama-expiry tracking
 
-- اشتراكات التأمينات الاجتماعية (GOSI) للسعودي وغير السعودي
-- مكافأة نهاية الخدمة (EOSB) وفق نظام العمل
-- متابعة تواريخ انتهاء الإقامات
+## Usage
 
-## الاستخدام
+[Download](https://github.com/ab1ob/hr-excel-system/archive/refs/heads/master.zip), open `نظام_HR_المتكامل.xlsx`, and start from the control panel. Replace the demo data with your own — all calculations are formulas that run automatically.
 
-[حمّل النظام](https://github.com/ab1ob/hr-excel-system/archive/refs/heads/master.zip) وافتح `نظام_HR_المتكامل.xlsx` وابدأ من لوحة التحكم. استبدل البيانات التجريبية ببيانات منشأتك — الحسابات كلها معادلات تعمل تلقائياً.
+## License
 
-## الرخصة
-
-MIT — استخدمه وعدّله بحرية.
-
----
+MIT — use and modify freely.
 
 <div align="center">
 
-[الصفحة الرئيسية](https://github.com/ab1ob) · [معرض الأعمال](https://github.com/ab1ob/portfolio)
-
-</div>
+[Home](https://github.com/ab1ob) · [Portfolio](https://github.com/ab1ob/portfolio)
 
 </div>
 
